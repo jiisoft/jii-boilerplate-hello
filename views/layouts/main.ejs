@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="<%- Jii.app.language %>">
+<head>
+    <meta charset="<%- Jii.app.charset %>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Application</title>
+
+    <!-- head(), beginBody(), endBody() - это маркеры, на место
+        которых приложение может добавлять js/css код -->
+    <%= this.head() %>
+</head>
+<body>
+<%= this.beginBody() %>
+
+<!-- HTML представления (site/index.ejs) -->
+<%= content %>
+
+<%= this.endBody() %>
+</body>
+</html>
