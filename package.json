@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "require-all": "0.0.8",
     "jii": "*",
     "jii-httpserver": "*",
+    "jii-urlmanager": "*",
     "jii-view": "*"
   }
 }
