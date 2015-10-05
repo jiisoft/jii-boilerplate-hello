@@ -1,5 +1,8 @@
-# jii-boilerplate-hello
-Hello World example application
+Hello World boilerplate application
+=====================
+
+Very simple Jii application. Rendered html page with "Hello World".
+Includes: HTTP server with router, one controller, layout + view.
 
 Install
 ---
