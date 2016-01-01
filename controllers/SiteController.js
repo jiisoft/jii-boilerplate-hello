@@ -4,7 +4,7 @@
  */
 Jii.defineClass('app.controllers.SiteController', {
 
-	__extends: Jii.base.Controller,
+	__extends: 'Jii.base.Controller',
 
 	/**
 	 *
