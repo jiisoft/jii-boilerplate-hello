@@ -20,13 +20,9 @@ Jii.defineClass('app.controllers.SiteController', {
 		// можно получить GET, POST параметры и отправить данные клиенту
 
 		// Генерируем HTML страницы: макет `layouts/main` + представление `site/index`
-		var html = this.render('index', {
-			text: 'Hello World!'
-		});
-
-		// Отправляем данные в браузер
-		context.response.data = html;
-		context.response.send();
+        return this.render('index', {
+            text: 'Hello World!'
+        });
 	}
 
 });
