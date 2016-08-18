@@ -12,7 +12,7 @@ Jii.defineClass('app.controllers.SiteController', {
 	 * @param {Jii.httpServer.Request} context.request
 	 * @param {Jii.httpServer.Response} context.response
 	 */
-	actionIndex: function(context) {
+	actionIndex(context) {
 		// Данный метод вызывается, когда происходит обращение к корню сайта. Это правило прописано
 		// в конфигурации приложения (urlManager -> rules -> '': 'site/index')
 
