@@ -5,7 +5,6 @@
   "dependencies": {
     "jii": "*",
     "jii-httpserver": "*",
-    "jii-urlmanager": "*",
     "jii-view": "*"
   }
 }

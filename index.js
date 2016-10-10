@@ -15,7 +15,7 @@ Jii.createWebApplication({
 		basePath: __dirname,
 		components: {
 			urlManager: { // Роутер
-				className: 'Jii.urlManager.UrlManager',
+				className: 'Jii.request.UrlManager',
 				rules: {
 					'': 'site/index'
 				}
