@@ -2,10 +2,6 @@
 // чтобы не вызывать `require('jii')` в каждом файле
 global.Jii = require('jii');
 
-// Подгружаем npm зависимости
-require('jii-httpserver');
-require('jii-view');
-
 // Подгружаем js файлы приложения (шаблоны подгрузятся автоматически)
 require('./controllers/SiteController');
 
@@ -21,7 +17,7 @@ Jii.createWebApplication({
 				}
 			},
 			http: { // HTTP сервер
-				className: 'Jii.httpServer.HttpServer'
+				className: 'Jii.request.http.HttpServer'
 			},
 			view: { // Компонент для генерации HTML
 				className: 'Jii.view.ServerWebView'

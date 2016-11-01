@@ -9,8 +9,8 @@ Jii.defineClass('app.controllers.SiteController', {
 	/**
 	 *
 	 * @param {Jii.base.Context} context
-	 * @param {Jii.httpServer.Request} context.request
-	 * @param {Jii.httpServer.Response} context.response
+	 * @param {Jii.request.http.Request} context.request
+	 * @param {Jii.request.http.Response} context.response
 	 */
 	actionIndex(context) {
 		// Данный метод вызывается, когда происходит обращение к корню сайта. Это правило прописано

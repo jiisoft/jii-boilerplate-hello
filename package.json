@@ -3,8 +3,6 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "jii": "*",
-    "jii-httpserver": "*",
-    "jii-view": "*"
+    "jii": "*"
   }
 }
